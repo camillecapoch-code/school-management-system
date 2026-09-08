@@ -1,0 +1,637 @@
+/* ==================================================
+   BULLETIN PAGE
+================================================== */
+
+.bulletin-page {
+
+    margin-left: 245px;
+
+    width: calc(100% - 245px);
+
+    min-height: 100vh;
+
+    padding: 30px 35px;
+
+    box-sizing: border-box;
+
+    background: #f5f7fa;
+
+}
+
+
+/* ==================================================
+   ACTIONS
+================================================== */
+
+.bulletin-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+}
+
+
+.bulletin-back {
+
+    color: #526273;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+.bulletin-back:hover {
+
+    color: #087f5b;
+
+}
+
+
+.bulletin-print {
+
+    border: none;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    background: #087f5b;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+
+.bulletin-print:hover {
+
+    background: #066b4d;
+
+}
+
+
+/* ==================================================
+   BULLETIN PAPER
+================================================== */
+
+.bulletin {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.07);
+
+}
+
+
+/* ==================================================
+   SCHOOL HEADER
+================================================== */
+
+.bulletin-school {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    text-align: center;
+
+}
+
+
+.bulletin-logo {
+
+    width: 55px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #123b5d;
+
+    color: white;
+
+    border-radius: 12px;
+
+    font-size: 25px;
+
+}
+
+
+.bulletin-school h1 {
+
+    margin: 0;
+
+    color: #123b5d;
+
+    font-size: 22px;
+
+    letter-spacing: 1px;
+
+}
+
+
+.bulletin-school p {
+
+    margin: 5px 0 0;
+
+    color: #718096;
+
+    font-size: 13px;
+
+}
+
+
+.bulletin-line {
+
+    height: 2px;
+
+    margin: 25px 0;
+
+    background: #123b5d;
+
+}
+
+
+/* ==================================================
+   STUDENT INFORMATION
+================================================== */
+
+.student-information {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.student-info-item {
+
+    padding: 13px;
+
+    border: 1px solid #e6ebf0;
+
+    border-radius: 8px;
+
+    background: #f8fafc;
+
+}
+
+
+.student-info-item span {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #8492a3;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+}
+
+
+.student-info-item strong {
+
+    color: #26384d;
+
+    font-size: 13px;
+
+}
+
+
+/* ==================================================
+   TABLE
+================================================== */
+
+.bulletin-table-wrapper {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+}
+
+
+.bulletin-table {
+
+    width: 100%;
+
+    min-width: 750px;
+
+    border-collapse: collapse;
+
+}
+
+
+.bulletin-table th {
+
+    padding: 13px 12px;
+
+    background: #123b5d;
+
+    color: white;
+
+    text-align: left;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .4px;
+
+}
+
+
+.bulletin-table td {
+
+    padding: 13px 12px;
+
+    border-bottom: 1px solid #e8edf2;
+
+    color: #405064;
+
+    font-size: 13px;
+
+}
+
+
+.bulletin-table tbody tr:hover {
+
+    background: #f8fafc;
+
+}
+
+
+/* ==================================================
+   AVERAGE
+================================================== */
+
+.bulletin-average {
+
+    display: inline-block;
+
+    min-width: 52px;
+
+    padding: 5px 8px;
+
+    border-radius: 6px;
+
+    background: #e8f7ef;
+
+    color: #087f5b;
+
+    font-weight: 700;
+
+    text-align: center;
+
+}
+
+
+/* ==================================================
+   EMPTY
+================================================== */
+
+.bulletin-empty {
+
+    padding: 40px !important;
+
+    text-align: center;
+
+    color: #8b98a7 !important;
+
+}
+
+
+/* ==================================================
+   RESULTS
+================================================== */
+
+.bulletin-results {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+}
+
+
+.result-box {
+
+    padding: 18px;
+
+    border: 1px solid #e5ebf0;
+
+    border-radius: 9px;
+
+    text-align: center;
+
+    background: #f8fafc;
+
+}
+
+
+.result-box span {
+
+    display: block;
+
+    color: #8492a3;
+
+    font-size: 11px;
+
+    margin-bottom: 7px;
+
+    text-transform: uppercase;
+
+}
+
+
+.result-box strong {
+
+    color: #26384d;
+
+    font-size: 20px;
+
+}
+
+
+.result-main {
+
+    background: #e8f7ef;
+
+    border-color: #c7ead8;
+
+}
+
+
+.result-main strong {
+
+    color: #087f5b;
+
+}
+
+
+/* ==================================================
+   DECISION
+================================================== */
+
+.bulletin-decision {
+
+    width: fit-content;
+
+    margin: 25px auto;
+
+    padding: 9px 25px;
+
+    border-radius: 20px;
+
+    background: #e8f7ef;
+
+    color: #087f5b;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* ==================================================
+   SIGNATURES
+================================================== */
+
+.bulletin-signatures {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 100px;
+
+    margin-top: 50px;
+
+}
+
+
+.bulletin-signatures span {
+
+    display: block;
+
+    color: #697889;
+
+    font-size: 12px;
+
+    text-align: center;
+
+}
+
+
+.signature-line {
+
+    width: 80%;
+
+    margin: 40px auto 0;
+
+    border-bottom: 1px solid #9ba7b3;
+
+}
+
+
+/* ==================================================
+   PRINT BULLETIN
+================================================== */
+
+@media print {
+
+    /* -----------------------------------------------
+       CACHER TOUTE LA PAGE
+    ----------------------------------------------- */
+
+    body * {
+
+        visibility: hidden !important;
+
+    }
+
+
+    /* -----------------------------------------------
+       AFFICHER UNIQUEMENT LE BULLETIN
+    ----------------------------------------------- */
+
+    .bulletin,
+    .bulletin * {
+
+        visibility: visible !important;
+
+    }
+
+
+    /* -----------------------------------------------
+       POSITION DU BULLETIN SUR LA PAGE
+    ----------------------------------------------- */
+
+    .bulletin {
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        max-width: none;
+
+        margin: 0;
+
+        padding: 25px;
+
+        box-sizing: border-box;
+
+        background: #ffffff;
+
+        border-radius: 0;
+
+        box-shadow: none;
+
+    }
+
+
+    /* -----------------------------------------------
+       CACHER EXPLICITEMENT LE MENU
+    ----------------------------------------------- */
+
+    .sidebar,
+    aside.sidebar,
+    .top-header,
+    .bulletin-actions {
+
+        display: none !important;
+
+    }
+
+
+    /* -----------------------------------------------
+       PAGE
+    ----------------------------------------------- */
+
+    .bulletin-page {
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        width: 100% !important;
+
+        min-height: auto !important;
+
+        background: #ffffff !important;
+
+    }
+
+
+    /* -----------------------------------------------
+       TABLE
+    ----------------------------------------------- */
+
+    .bulletin-table {
+
+        width: 100%;
+
+        border-collapse: collapse;
+
+    }
+
+
+    /* -----------------------------------------------
+       ÉVITER LES COUPURES
+    ----------------------------------------------- */
+
+    .bulletin-school,
+    .student-information,
+    .bulletin-table,
+    .bulletin-results,
+    .bulletin-decision,
+    .bulletin-signatures {
+
+        break-inside: avoid;
+
+        page-break-inside: avoid;
+
+    }
+
+
+    /* -----------------------------------------------
+       FORMAT DU TEXTE
+    ----------------------------------------------- */
+
+    .bulletin-table th {
+
+        -webkit-print-color-adjust: exact;
+
+        print-color-adjust: exact;
+
+    }
+
+
+    .result-main,
+    .bulletin-average,
+    .bulletin-decision {
+
+        -webkit-print-color-adjust: exact;
+
+        print-color-adjust: exact;
+
+    }
+
+}

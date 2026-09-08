@@ -1,0 +1,548 @@
+/* =========================================
+   SETTINGS PAGE
+========================================= */
+
+.settings-page {
+
+    padding-bottom: 50px;
+
+}
+
+
+/* =========================================
+   SETTINGS HEADER
+========================================= */
+
+.settings-page-header {
+
+    margin-bottom: 25px;
+
+}
+
+
+.settings-page-header h1 {
+
+    margin: 0;
+
+    color: #263746;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+}
+
+
+.settings-page-header p {
+
+    margin-top: 7px;
+
+    color: #8995a1;
+
+    font-size: 12px;
+
+}
+
+
+/* =========================================
+   MESSAGE
+========================================= */
+
+.settings-message {
+
+    padding: 12px 15px;
+
+    margin-bottom: 20px;
+
+    border-radius: 9px;
+
+    font-size: 12px;
+
+}
+
+
+.settings-message.success {
+
+    background: #e9f8ef;
+
+    color: #21864b;
+
+    border: 1px solid #c8edd6;
+
+}
+
+
+.settings-message.error {
+
+    background: #fff0f0;
+
+    color: #c62828;
+
+    border: 1px solid #f1caca;
+
+}
+
+
+/* =========================================
+   SETTINGS CARD
+========================================= */
+
+.settings-card {
+
+    background: #ffffff;
+
+    border: 1px solid #e9eef3;
+
+    border-radius: 15px;
+
+    padding: 24px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.045);
+
+}
+
+
+/* =========================================
+   CARD HEADER
+========================================= */
+
+.settings-card-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    padding-bottom: 20px;
+
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #edf1f5;
+
+}
+
+
+.settings-card-icon {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 10px;
+
+    background: #eef5fb;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 19px;
+
+}
+
+
+.settings-card-header h2 {
+
+    margin: 0;
+
+    color: #263746;
+
+    font-size: 16px;
+
+}
+
+
+.settings-card-header p {
+
+    margin: 5px 0 0;
+
+    color: #8b97a3;
+
+    font-size: 11px;
+
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.settings-form {
+
+    max-width: 700px;
+
+}
+
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 18px;
+
+}
+
+
+.form-group label {
+
+    margin-bottom: 7px;
+
+    color: #405262;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+}
+
+
+.form-group input,
+.form-group textarea {
+
+    width: 100%;
+
+    padding: 11px 12px;
+
+    border: 1px solid #dfe6ec;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #263746;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    box-sizing: border-box;
+
+    transition: 0.2s ease;
+
+}
+
+
+.form-group textarea {
+
+    resize: vertical;
+
+    min-height: 80px;
+
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    border-color: #1769e0;
+
+    box-shadow:
+        0 0 0 3px rgba(23, 105, 224, 0.08);
+
+}
+
+
+/* =========================================
+   SAVE BUTTON
+========================================= */
+
+.settings-form-footer {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    padding-top: 8px;
+
+}
+
+
+.settings-save-button {
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 11px 18px;
+
+    background: #1769e0;
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+
+}
+
+
+.settings-save-button:hover {
+
+    background: #1258bd;
+
+    transform: translateY(-1px);
+
+}
+
+
+/* =========================================
+   SETTINGS OPTIONS
+========================================= */
+
+.settings-option {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #edf1f5;
+
+}
+
+
+.settings-option:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.settings-option strong {
+
+    display: block;
+
+    color: #34495e;
+
+    font-size: 12px;
+
+}
+
+
+.settings-option span {
+
+    display: block;
+
+    margin-top: 4px;
+
+    color: #8995a1;
+
+    font-size: 10px;
+
+}
+
+
+.settings-action-link {
+
+    text-decoration: none;
+
+    color: #1769e0;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+}
+
+
+.settings-action-link:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* =========================================
+   SWITCH
+========================================= */
+
+.switch {
+
+    position: relative;
+
+    width: 40px;
+
+    height: 21px;
+
+    flex-shrink: 0;
+
+}
+
+
+.switch input {
+
+    opacity: 0;
+
+    width: 0;
+
+    height: 0;
+
+}
+
+
+.slider {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: #cbd5df;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+
+}
+
+
+.slider:before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 17px;
+
+    height: 17px;
+
+    left: 2px;
+
+    top: 2px;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    transition: 0.2s ease;
+
+}
+
+
+.switch input:checked + .slider {
+
+    background: #1769e0;
+
+}
+
+
+.switch input:checked + .slider:before {
+
+    transform: translateX(19px);
+
+}
+
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode .settings-page-header h1 {
+
+    color: #f1f5f9;
+
+}
+
+
+body.dark-mode .settings-page-header p {
+
+    color: #94a3b8;
+
+}
+
+
+body.dark-mode .settings-card {
+
+    background: #1e293b;
+
+    border-color: #334155;
+
+}
+
+
+body.dark-mode .settings-card-header {
+
+    border-bottom-color: #334155;
+
+}
+
+
+body.dark-mode .settings-card-header h2 {
+
+    color: #f1f5f9;
+
+}
+
+
+body.dark-mode .settings-card-header p {
+
+    color: #94a3b8;
+
+}
+
+
+body.dark-mode .settings-card-icon {
+
+    background: #263449;
+
+}
+
+
+body.dark-mode .form-group label {
+
+    color: #cbd5e1;
+
+}
+
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+
+    background: #0f172a;
+
+    border-color: #475569;
+
+    color: #f1f5f9;
+
+}
+
+
+body.dark-mode .settings-option {
+
+    border-bottom-color: #334155;
+
+}
+
+
+body.dark-mode .settings-option strong {
+
+    color: #e2e8f0;
+
+}
+
+
+body.dark-mode .settings-option span {
+
+    color: #94a3b8;
+
+}
